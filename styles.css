@@ -1,0 +1,97 @@
+
+:root {
+    --fontBase: "IBM Plex Sans", sans-serif;
+  
+    /*===== Color palette =====*/
+  
+    --first-color: #2427f0;
+    --second-color: #c8c8c8;
+    --second-alpha-color: rgba(0, 0, 0, 0.8);
+    --max-width: 720px;
+    --max-width-post: 920px;
+    --header-height: 4rem;
+    --box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  /*===== Reset =====*/
+  
+  html {
+    caret-color: transparent;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--fontBase);
+    margin: 0;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: var(--Heading1);
+  }
+  
+  body {
+    margin: 7px;
+    overflow-x: hidden;
+    color: var(--text-color);
+  }
+  
+  a {
+    color: var(--link-color);
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: 0.75;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+.header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 0.5rem;
+    height: var(--header-height);
+    background-color: var(--second-color);
+  }
+  
+  .header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-width);
+  
+  }
+
+   h1 {
+    margin-top: 7rem;
+   
+  }
+  footer {
+    font-size: 12px;
+    color: #252525;
+    background-color:#c8c8c8;
+    text-align: center;
+  }
+

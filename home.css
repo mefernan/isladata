@@ -1,0 +1,57 @@
+.portfolio-card {
+    display: block;
+    text-decoration: none;
+    margin: 1.5rem 0rem;
+    padding-bottom: 0.5rem;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .skills-card {
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .skills-card svg {
+    margin-bottom: 0.5rem;
+    width: 2rem;
+    fill: var(--first-color);
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+    .portfolio > .container {
+      display: grid;
+      grid-template-columns: repeat(2, 48%);
+      justify-content: space-between;
+      align-content: center;
+      margin: 1.5 rem;
+    }
+  
+    .portfolio .section-title {
+      grid-column: span 2;
+    }
+  
+    .skills > .container {
+      display: grid;
+      grid-template-columns: repeat(2, 48%);
+      justify-content: space-between;
+      align-content: center;
+    }
+  
+    .skills .section-title {
+      grid-column: span 2;
+    }
+
+
+    
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .about {
+      display: grid;
+      grid-template-columns: repeat(2, 45%);
+      justify-content: space-between;
+      align-content: center;
+    }
+ }
