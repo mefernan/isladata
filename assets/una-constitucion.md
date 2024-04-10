@@ -5,7 +5,7 @@
 
 *Autor: Mario Fdez*
 
-La creación de una constitución es un momento trascendental en la historia de una nación y a lo largo de la historia se evidencia que la innovación es uno de los combustibles que impulsa el desarrollo económico y social.
+La creación de una constitución es un momento trascendental en la historia de una nación y a lo largo se evidencia que la innovación es uno de los combustibles que impulsa el desarrollo económico y social.
 La Constitución de 1991 generó debates intensos y diferentes opiniones, la tildaron de neoliberal debido a su énfasis en la protección de la propiedad y la iniciativa privada, en cambio, otros la consideraron intervencionista y garantista por otorgar al estado poderes e intervenir en una variedad de asuntos económicos, no obstante una constitución que no reconozca la importancia de la innovación, las industrias creativas y la cultura estaría coartando el potencial de una sociedad de manera significativa en el desarrollo socioeconómico, la identidad cultural y la calidad de vida general.
 
 La creatividad e innovación son motores esenciales para el desarrollo de las empresas, permitiendo aprovechar oportunidades de comercialización y posicionamiento, elementos que facilitan la identificación de necesidades comerciales actuales y futuras, y son imprescindibles para el progreso productivo, competitivo y económico de cualquier país, la creatividad e innovación ayudan a mejorar el portafolio de productos y servicios, aumentar la productividad y competitividad, y enfrentar eficazmente los cambios del mercado. Por lo tanto, deben ser considerados en todos los planes y estrategias políticas y empresariales.
