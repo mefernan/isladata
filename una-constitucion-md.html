@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Blog Mario Fdez</title>
+    <link rel="shortcut icon"
+    href="https://firebasestorage.googleapis.com/v0/b/my-portfolio-21d6e.appspot.com/o/favicon-marioferser.png?alt=media&token=311a3680-ad1e-40a6-8470-7679ee874bdf"
+    type="image/x-icon">
+    <title>Constitución sin I I C y C.</title>
+    <meta property="og:title" content="Una Constitución sin Innovación, Industrias Creativas y Culturales.">
+	<meta property="og:description" content="La creatividad e innovación son motores esenciales para el desarrollo y empoderamiento, permitiendo aprovechar oportunidades de comercialización y posicionamiento.">
+	<meta name="twitter:image" content="https://images.unsplash.com/photo-1634581193205-c083b2dab2e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+	<meta property="og:image"content="https://images.unsplash.com/photo-1634581193205-c083b2dab2e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+	<meta property="og:url" content="https://marfernans.github.io/blog-mario/una-constitucion-md.html">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@soy_marius">
 </head>
 <body>
     <header class="header">
@@ -27,7 +37,7 @@
     <script>       
             $main = document.querySelector("main");
 
-            fetch("assets/una-constitución.md")
+            fetch("assets/una-constitucion.md")
                 .then(res => res.ok ? res.text(): Promise.reject(res))
                 .then(text => {
                     console.log(text)
