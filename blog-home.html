@@ -1,78 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon"
-		href="https://firebasestorage.googleapis.com/v0/b/my-portfolio-21d6e.appspot.com/o/favicon-marioferser.png?alt=media&token=311a3680-ad1e-40a6-8470-7679ee874bdf"
-		type="image/x-icon">
-    <link rel="stylesheet" href="home.css">
-	<link rel="stylesheet" href="styles.css">
-    <title>Blog Mario Fdez</title>
+  <meta charset="UTF-8" />
+   <title>IslaData</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/icon_IslaData.png">
+
+  <meta name="description" content="Un espacio donde se conectan la mente, el corazón y las manos a través de la cultura, la tecnología y la curiosidad crítica." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Blog de Mario Fernandez" />
+  <meta property="og:description" content="Cultura, tecnología e ideas emergentes." />
+  <meta property="og:image" content="URL-de-una-imagen" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
 </head>
+
+
 <body>
-    <header class="header">
-		<section class="container">
-			<div class="logo"> 
-				<a href="blog-home.html">
-					<svg width="49" height="41" viewBox="0 0 29 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path fill-rule="evenodd" clip-rule="evenodd"
-							d="M19.3334 2.8H9.66666C5.75158 2.8 2.57778 6.24741 2.57778 10.5C2.57778 14.7525 5.75158 18.2 9.66666 18.2H19.3334C23.2484 18.2 26.4222 14.7525 26.4222 10.5C26.4222 6.24741 23.2484 2.8 19.3334 2.8ZM9.66666 0C4.32792 0 0 4.70101 0 10.5C0 16.299 4.32792 21 9.66666 21H19.3334C24.6721 21 29 16.299 29 10.5C29 4.70101 24.6721 0 19.3334 0H9.66666ZM7.10903 5.38125V7.32078V7.32508V15.6145H12.6783V7.32508H14.5V15.6188H17.2847V7.32508H19.1063V15.6188H21.891V7.32508V5.38125H7.10903ZM26.8104 0.568457H25.6326V0.956735H25.9995V2.11142H26.4412V0.956735H26.8104V0.568457ZM28.6892 2.11142V0.568457H28.3083C28.2724 0.568457 28.2452 0.572686 28.2265 0.581146C28.2078 0.587912 28.1876 0.607369 28.1658 0.639514L27.89 1.2435C27.8745 1.27565 27.8604 1.30779 27.8479 1.33994C27.8371 1.37208 27.8269 1.40422 27.8176 1.43637C27.8004 1.37547 27.777 1.31117 27.7475 1.2435L27.4811 0.639514C27.4577 0.607369 27.4375 0.587912 27.4203 0.581146C27.4031 0.572686 27.3759 0.568457 27.3385 0.568457H26.9553V2.11142H27.3432V1.40085L27.3175 1.14453L27.6376 1.86272C27.6516 1.89655 27.6719 1.92193 27.6984 1.93885C27.7249 1.95577 27.7545 1.96423 27.7872 1.96423H27.8503C27.9204 1.96423 27.971 1.93039 28.0022 1.86272L28.3317 1.13438L28.3013 1.40085V2.11142H28.6892Z"
-							fill="#252525"/>
-					</svg>
-					
-				</a>
-			</div>
-		</section>
-	</header>
+ <header class="site-header">
+  <div class="container">
+    <h1 class="site-title">IslaData</h1>
+    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    <nav class="main-nav" id="menu">
+      <ul>
+        <li><a href="blog-home.html">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-    <section id="portafolio" class="portfolio sections">
-		<div class="container">
-			<h2 class="section-title">Blog</h2>
-			<article class="portfolio-card">
-				<a href="mentalidad-md.html" target="_blank">
-					<img src="https://images.unsplash.com/photo-1422246358533-95dcd3d48961?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=6000" alt="manossando forma al barro">
-				<div class="card-info">
-					<h3>Adaptando una mentalidad de principiante conectando la mente, el corazón y las manos...</h3>		
-				</div>
-			</a>
+	<main id="post-container">
+	<!-- Aquí se cargarán los posts desde Ghost -->
+	</main>
 
-			</article>
-			<article class="portfolio-card">
-				<a href="realidadmixta-md.html" target="_blank">
-					<img src="https://images.unsplash.com/photo-1613325436249-c90b7a608248?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=6000" alt="Mujer con gafas de realidad aumentada">			
-				<div class="card-info">
-					<h3>Diferenciando la realidad virtual, la realidad aumentada y la Realidad Mixta...</h3>
-				</div>
-			</a>
-			</article>
-			<article class="portfolio-card">
-				<a href="una-constitucion-md.html" target="_blank">
-					<img src="https://images.unsplash.com/photo-1503458626055-1d267bae7bb8?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="trabajo numero tres">
-			
-				<div class="card-info">
-					<h3>Una Constitución sin Innovación, Industrias Creativas y Culturales...</h3>	
-				</div>
-			</a>
-			</article>
+	<script>
+		const menuBtn = document.querySelector('.menu-toggle');
+		const menu = document.getElementById('menu');
 
-		
-			<article class="portfolio-card">
-				<a href="la-gamificación-md.html" target="_blank">
-					<img src="https://images.unsplash.com/photo-1517414204284-fb7e98b2e255?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="tarjetas en una en superficie verde">
-				
-				<div class="card-info">
-					<h3>El poder de la gamificación en la sociedad contemporánea...</h3>
-				</div>
-			</a>
-			</article>
-		
-		</div>
-	</section>
+		menuBtn.addEventListener('click', () => {
+			menu.classList.toggle('open');
+		});
+	</script>
 
-    <footer>
-		<p>With much 🫶 for: Mario Fdez</p>
-	  </footer>
-	</body>
-        
-    </body>
+	<script src="js/config.js"></script>
+	<script src="js/ghost-api.js"></script>
+
+	<footer class="site-footer">
+		<p>&copy; 2025 Mario Enrique Fernández Serrano. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>
