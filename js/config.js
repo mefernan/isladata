@@ -1,7 +1,7 @@
 // config.js
 
 const ghostConfig = {
-  url: 'https://ghost-cms-isladata.onrender.com',    // url ghost-cms
-  key: '34a6a4391d3b55046e8e1ee74e',                 // Content API Key
+  url: 'https://isladata-cms.onrender.com',    // url ghost-cms
+  key: '75c52acc6212776571fe96aea8',                 // Content API Key
   limit: 5                                           // posts a mostrar
 };
