@@ -1,5 +1,5 @@
 // Realiza una solicitud HTTP GET para obtener los posts desde el backend
-fetch("http://localhost:8000/posts")
+fetch("http://127.0.0.1:8000/posts")
     // Convierte la respuesta a formato JSON
     .then(response => response.json())
     // Procesa los datos recibidos
