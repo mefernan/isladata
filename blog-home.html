@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <!-- Metadatos y enlaces de recursos -->
   <meta charset="UTF-8" />
-   <title>IslaData</title>
+  <title>IslaData</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="assets/icon_IslaData.png">
 
+  <!-- Descripción y configuración para SEO y redes sociales -->
   <meta name="description" content="Un espacio donde se conectan la mente, el corazón y las manos a través de la cultura, la tecnología y la curiosidad crítica." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Open Graph -->
+  <!-- Open Graph para compartir en redes sociales -->
   <meta property="og:title" content="Blog de Mario Fernandez" />
   <meta property="og:description" content="Cultura, tecnología e ideas emergentes." />
   <meta property="og:image" content="URL-de-una-imagen" />
-  <!-- Twitter Card -->
+  <!-- Twitter Card para compartir en Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
 </head>
 
 
 <body>
- <header class="site-header">
-  <div class="container">
-    <h1 class="site-title">IslaData</h1>
-    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
-    <nav class="main-nav" id="menu">
-      <ul>
-        <li><a href="blog-home.html">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  <!-- Encabezado del sitio con menú de navegación -->
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">IslaData</h1>
+      <!-- Botón para abrir/cerrar el menú en dispositivos móviles -->
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+      <nav class="main-nav" id="menu">
+        <ul>
+          <li><a href="blog-home.html">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-	<main id="post-container">
-	<!-- Aquí se cargarán los posts desde Ghost -->
-	</main>
+  <!-- Contenedor principal donde se mostrarán los posts del blog -->
+    <main id="post-container"></main> 
 
-	<script>
-		const menuBtn = document.querySelector('.menu-toggle');
-		const menu = document.getElementById('menu');
+  <!-- Script para manejar la apertura/cierre del menú en móviles -->
+  <script>
+    const menuBtn = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('menu');
 
-		menuBtn.addEventListener('click', () => {
-			menu.classList.toggle('open');
-		});
-	</script>
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  </script>
 
-	<script src="js/config.js"></script>
-	<script src="js/ghost-api.js"></script>
+  <!-- Script principal de la aplicación -->
+  <script src="js/index.js"></script>
 
-	<footer class="site-footer">
-		<p>&copy; 2025 Mario Enrique Fernández Serrano. Todos los derechos reservados.</p>
-	</footer>
+  <!-- Pie de página del sitio -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Mario Fdez. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>

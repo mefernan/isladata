@@ -1,4 +1,3 @@
-/* Diseño general del contenedor */
 #post-container {
   max-width: 768px;
   margin: 2rem auto;
@@ -206,4 +205,3 @@
   font-size: 0.9rem;
   border-top: 1px solid #e0e0e0;
 }
-
